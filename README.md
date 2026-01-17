@@ -19,6 +19,8 @@ This decouples **link sharing** from **resource updates**, ensuring stability, f
 
 ---
 
+## Features
+
 ### 1. Generate Short URL
 
 * The system shall accept a **long URL** from the user.
@@ -38,3 +40,13 @@ This decouples **link sharing** from **resource updates**, ensuring stability, f
 * Ownership verification must be performed before allowing updates.
 * The alias itself must remain unchanged after the update.
 * Subsequent requests to the alias shall redirect to the **updated long URL**.
+
+---
+
+## Tech Stack
+
+| Layer    | Tool             | Stack       |
+| -------- | ---------------- | ----------- |
+| Frontend | Vercel           | React.js    |
+| Backend  | Railway / Render | Spring Boot |
+| Database | Neon             | PostgreSQL  |
