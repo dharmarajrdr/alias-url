@@ -1,5 +1,24 @@
 # Alias URL
 
+## Problem
+
+Users often share URLs that point to resources such as documents, files, dashboards, or web pages.
+When the underlying resource changes or is replaced, the original URL also changes.
+This forces users to redistribute new links every time an update occurs, leading to broken links, manual follow-ups, and poor user experience.
+
+## Solution
+
+AliasUrl provides a **persistent alias-based URL system**.
+
+* Users create a **short or custom alias URL** that points to a long destination URL.
+* The alias URL remains constant and can be shared across platforms.
+* When the destination changes, users update the **long URL** associated with the alias.
+* All existing shares automatically redirect to the latest destination without requiring link redistribution.
+
+This decouples **link sharing** from **resource updates**, ensuring stability, flexibility, and ease of management.
+
+---
+
 ### 1. Generate Short URL
 
 * The system shall accept a **long URL** from the user.
