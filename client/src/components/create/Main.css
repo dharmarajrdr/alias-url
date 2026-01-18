@@ -1,0 +1,68 @@
+#create-alias-form {
+    border: 1px solid #ccc;
+    padding: 25px 30px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#create-alias-form h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+#create-alias-form .input-field,
+#create-alias-form .input-field input {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#create-alias-form .input-field input {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+#create-alias-form #error-message {
+    color: red;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+#create-alias-form button {
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#create-alias-button {
+    background-color: #006904;
+}
+
+#create-alias-button:hover {
+    background-color: #005203;
+}
+
+#close-alias-button {
+    background-color: #b81717;
+}
+
+#close-alias-button:hover {
+    background-color: #870000;
+}
+
+#custom-alias-label {
+    font-size: 14px;
+    margin: 5px 0px;
+}

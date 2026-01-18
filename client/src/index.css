@@ -9,9 +9,6 @@
 
 i {
   font-size: 12px;
-}
-
-.fa-ellipsis {
   cursor: pointer;
 }
 
@@ -84,4 +81,8 @@ i {
 
 span {
   font-size: 12px;
+}
+
+.cusrsorPointer {
+  cursor: pointer;
 }
