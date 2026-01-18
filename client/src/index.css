@@ -19,14 +19,6 @@ i {
   width: 100%;
 }
 
-.fs12 {
-  font-size: 12px;
-}
-
-.mR5 {
-  margin-right: 5px;
-}
-
 .FRCC {
   display: flex;
   flex-direction: row;
@@ -74,6 +66,13 @@ i {
   flex-direction: row;
   justify-content: center;
   align-items: space-between;
+}
+
+.FRBC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .FRBC {

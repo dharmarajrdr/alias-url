@@ -6,13 +6,10 @@ import Footer from './Footer.jsx';
 
 const Item = () => {
     return (
-        <div className='w100 FRSS item'>
-            <i class="fa-solid fa-grip-vertical"></i>
-            <div className='w100 FCSC'>
-                <Header />
-                <Body />
-                <Footer />
-            </div>
+        <div className='w100 FCSS item'>
+            <Header />
+            <Body />
+            <Footer />
         </div>
     )
 }
